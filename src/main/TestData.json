@@ -1,0 +1,26 @@
+{
+  "id": "916b2352-7c66-4060-aec2-866aed9c9230",
+  "name": "connector_authenticate",
+  "request": {
+    "url": "/connector/authenticate",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\"type\":\"011\",\"issuer\":\"6100539\",\"serial\":\"0303639\",\"timeout\":\"10\",\"password\":\"DKDOMAINPASSWORD\"}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 504,
+    "body": "{\"resultName\":\"TIMEDOUT\",\"resultCode\":416,\"resultMessage\":\"The mobile token did not respond within the given time: no matching results available from retrieveCredential within 9972 ms (0 previous non-matching) 11 seconds after txn start\",\"credentialID\":\"{{credentialId}}\"}",
+    "headers": {
+      "Content-Type": "application/json",
+      "Date": "Wed, 18 Mar 2020 00:27:41 GMT"
+    }
+  },
+  "uuid": "916b2352-7c66-4060-aec2-866aed9c9230",
+  "persistent": true,
+  "insertionIndex": 8
+}

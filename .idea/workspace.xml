@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f1c1be-3721-4204-ab7d-9a0b47ce0dec" name="Default Changelist" comment="/">
-      <change afterPath="$PROJECT_DIR$/src/com/java/JsonModify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/FileRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/TestData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -39,10 +40,26 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.java" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\habarags\MyDoc\Projects\JavaApp\src\main" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.JsonModify">
+  <component name="RunManager" selected="Application.FileRead">
     <configuration name="DemoForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.DemoForEach" />
+      <module name="JavaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.FileRead" />
       <module name="JavaApp" />
       <extension name="coverage">
         <pattern>
@@ -95,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileRead" />
         <item itemvalue="Application.JsonModify" />
         <item itemvalue="Application.MethRef" />
         <item itemvalue="Application.DemoForEach" />
@@ -132,7 +150,8 @@
       <workItem from="1578304669059" duration="1026000" />
       <workItem from="1578306638807" duration="797000" />
       <workItem from="1578358158297" duration="9000" />
-      <workItem from="1584354787624" duration="4612000" />
+      <workItem from="1584354787624" duration="5705000" />
+      <workItem from="1584531188713" duration="9417000" />
     </task>
     <servers />
   </component>
@@ -161,54 +180,55 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="350" y="105" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1584356106009" />
-    <state width="472" height="546" key="DebuggerActiveHint" timestamp="1584357937880">
+    <state width="472" height="546" key="DebuggerActiveHint" timestamp="1584947695158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="472" height="546" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1584357937880" />
+    <state width="472" height="546" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1584947695158" />
     <state x="413" y="44" key="FileChooserDialogImpl" timestamp="1584357397735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="44" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584357397735" />
-    <state width="1311" height="170" key="GridCell.Tab.0.bottom" timestamp="1584358022023">
+    <state width="655" height="97" key="GridCell.Tab.0.bottom" timestamp="1584947680404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584358022023" />
-    <state width="1311" height="170" key="GridCell.Tab.0.center" timestamp="1584358022022">
+    <state width="655" height="97" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584947680404" />
+    <state width="655" height="97" key="GridCell.Tab.0.center" timestamp="1584947680403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="170" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584358022022" />
-    <state width="1311" height="170" key="GridCell.Tab.0.left" timestamp="1584358022022">
+    <state width="655" height="97" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584947680403" />
+    <state width="655" height="97" key="GridCell.Tab.0.left" timestamp="1584947680403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="170" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584358022022" />
-    <state width="1311" height="170" key="GridCell.Tab.0.right" timestamp="1584358022023">
+    <state width="655" height="97" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584947680403" />
+    <state width="655" height="97" key="GridCell.Tab.0.right" timestamp="1584947680404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="170" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584358022023" />
-    <state width="1311" height="208" key="GridCell.Tab.1.bottom" timestamp="1584357998316">
+    <state width="655" height="97" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584947680404" />
+    <state width="655" height="97" key="GridCell.Tab.1.bottom" timestamp="1584947680851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="208" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584357998316" />
-    <state width="1311" height="208" key="GridCell.Tab.1.center" timestamp="1584357998316">
+    <state width="655" height="97" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584947680851" />
+    <state width="655" height="97" key="GridCell.Tab.1.center" timestamp="1584947680851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="208" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584357998316" />
-    <state width="1311" height="208" key="GridCell.Tab.1.left" timestamp="1584357998316">
+    <state width="655" height="97" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584947680851" />
+    <state width="655" height="97" key="GridCell.Tab.1.left" timestamp="1584947680851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="208" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584357998316" />
-    <state width="1311" height="208" key="GridCell.Tab.1.right" timestamp="1584357998316">
+    <state width="655" height="97" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584947680851" />
+    <state width="655" height="97" key="GridCell.Tab.1.right" timestamp="1584947680851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="208" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584357998316" />
-    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1584357937877">
+    <state width="655" height="97" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584947680851" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1584947694452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1584357937877" />
-    <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1578358158910">
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1584947694452" />
+    <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1584531992643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="314" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1883.-1443.2048.1112/677.-800.1280.760@0.0.1366.728" timestamp="1578358158910" />
+    <state x="314" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584531992643" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,6 +242,21 @@
           <url>file://$PROJECT_DIR$/src/com/java/JsonModify.java</url>
           <line>50</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/FileRead.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/FileRead.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/FileRead.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
